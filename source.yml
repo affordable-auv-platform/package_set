@@ -1,0 +1,4 @@
+name: affordable-auv-platform
+
+imports:
+    - github: rock-core/rock-package_set

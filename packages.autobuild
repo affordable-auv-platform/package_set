@@ -1,0 +1,10 @@
+orogen_package 'drivers/orogen/middleware_communication'
+orogen_package 'sensoring/orogen/kf_orientation'
+
+metapackage 'beaglebone',
+    'base/scripts',
+    'tools/orocos.rb',
+    'control/orogen/auv_control',
+    'control/orogen/auv_raw_command_converter',
+    'drivers/orogen/middleware_communication',
+    'sensoring/orogen/kf_orientation'
